@@ -17,8 +17,8 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        // =============== LIST ================
-        // BEFORE Java 9
+        // =============== BEFORE JAVA 9 ================
+        // LIST
         ArrayList<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
@@ -30,27 +30,30 @@ public class Test {
         list.add("4");
         // [1, 2, 3, 4]
         System.out.println(unmodifiableList);
-        // AFTER Java 9
-        unmodifiableList = List.of("1", "2", "3");
 
-        // =============== SET ================
-        // BEFORE Java 9
+        // SET
         HashSet<String> set = new HashSet<>();
         set.add("1");
         set.add("2");
         set.add("3");
         Set<String> unmodifiableSet = Collections.unmodifiableSet(set);
-        // AFTER Java 9
-        unmodifiableSet = Set.of("1", "2", "3");
 
-        // =============== MAP ================
-        // BEFORE Java 9
+        // MAP
         HashMap<String, Integer> map = new HashMap<>();
         map.put("1", 1);
         map.put("2", 2);
         map.put("3", 3);
         Map<String, Integer> unmodifiableMap = Collections.unmodifiableMap(map);
-        // AFTER Java 9
+
+
+        // =============== AFTER JAVA 9 ================
+        // LIST
+        unmodifiableList = List.of("1", "2", "3");
+
+        // SET
+        unmodifiableSet = Set.of("1", "2", "3");
+
+        // MAP
         unmodifiableMap = Map.of(
                 "1", 1,
                 "2", 2,
