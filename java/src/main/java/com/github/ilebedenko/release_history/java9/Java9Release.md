@@ -1,6 +1,6 @@
 
 1. Modularization (Project Jigsaw)
-2. Try-With-Resources
+2. Try-With-Resources Effectively Final
 3. Anonymous Class Diamond Operator
 4. Interface Private Method
 5. Immutable Collections
