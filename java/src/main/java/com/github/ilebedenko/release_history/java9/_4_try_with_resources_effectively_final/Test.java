@@ -1,4 +1,4 @@
-package com.github.ilebedenko.release_history.java9._2_try_with_resources_effectively_final;
+package com.github.ilebedenko.release_history.java9._4_try_with_resources_effectively_final;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

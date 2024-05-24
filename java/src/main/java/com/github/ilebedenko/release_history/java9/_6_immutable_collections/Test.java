@@ -1,16 +1,16 @@
-package com.github.ilebedenko.release_history.java9._5_immutable_collections;
+package com.github.ilebedenko.release_history.java9._6_immutable_collections;
 
 import java.util.*;
 
 /**
  * Были добавлены статичные фабричные методы для упрощенного создания Immutable коллекций
- *
+ * <p>
  * Особенности ImmutableCollections
  * - нельзя изменить, при попытке получим UnsupportedOperationException;
  * - в метод of() нельзя передать null, во всех коллекциях получим NullPointerException;
  * - потокобезопасны
  * - потребляют меньше памяти аналогичных мутируемых коллекций
- *
+ * <p>
  * Различие UnmodifiableCollections и ImmutableCollections заключается в том,
  * что в первом случае можно изменить исходную коллекцию и эти изменения будут
  * отражены в коллекциях, возвращаемых методами

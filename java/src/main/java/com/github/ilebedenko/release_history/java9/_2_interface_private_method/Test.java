@@ -1,4 +1,4 @@
-package com.github.ilebedenko.release_history.java9._4_interface_private_method;
+package com.github.ilebedenko.release_history.java9._2_interface_private_method;
 
 /**
  * Приватные методы позволяют решить проблему переиспользования кода

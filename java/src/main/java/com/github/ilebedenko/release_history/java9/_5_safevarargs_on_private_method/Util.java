@@ -1,4 +1,4 @@
-package com.github.ilebedenko.release_history.java9._7_safevarargs_on_private_method;
+package com.github.ilebedenko.release_history.java9._5_safevarargs_on_private_method;
 
 import java.util.Arrays;
 
