@@ -10,4 +10,4 @@ New APIs:
 
 6. Factory methods for immutable collections
 7. New Stream methods: `takeWhile`, `dropWhile`, `iterate`, `ofNullable`
-8. Optional to Stream
+8. New Optional methods: `stream`, `ifPresentOrElse`, `or`
