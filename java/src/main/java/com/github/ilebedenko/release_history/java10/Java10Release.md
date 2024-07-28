@@ -5,5 +5,5 @@ New Language Features:
 New APIs:
 
 2. Copying to Immutable Collections: `copyOf` 
-3. Immutable Collectors: `toUnmodifiableList`, `toUnmodifiableSet`, `toUnmodifiableMap`
+3. Unmodifiable Collectors: `toUnmodifiableList`, `toUnmodifiableSet`, `toUnmodifiableMap`
 4. New Optional method: `orElseThrow`

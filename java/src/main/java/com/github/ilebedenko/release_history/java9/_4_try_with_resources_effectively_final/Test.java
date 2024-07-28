@@ -19,8 +19,8 @@ public class Test {
         }
 
         // =============== AFTER JAVA 9 ================
-        BufferedReader br1 = new BufferedReader(new FileReader("test1.txt"));
-        BufferedReader br2 = new BufferedReader(new FileReader("test2.txt"));
+        final BufferedReader br1 = new BufferedReader(new FileReader("test1.txt"));
+        final BufferedReader br2 = new BufferedReader(new FileReader("test2.txt"));
 
         try (br1; br2) {
             System.out.println(br1.readLine() + br2.readLine());
