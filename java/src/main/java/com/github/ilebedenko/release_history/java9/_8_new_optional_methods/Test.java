@@ -7,12 +7,12 @@ import java.util.Optional;
 /**
  * Новые методы Optional:
  * <p>
- * stream() - создает Stream из Optional. Если Optional будет пустым, то и Stream тоже
+ * `stream()` - создает Stream из Optional. Если Optional будет пустым, то и Stream тоже
  * <p>
- * ifPresentOrElse(Consumer action, Runnable emptyAction) - выполняет одно действие,
+ * `ifPresentOrElse(Consumer, Runnable)` - выполняет одно действие,
  *          если значение в Optional присутствует, иначе - другое
  * <p>
- * or(Supplier supplier) - возвращает Optional переданного значения, если оно задано,
+ * `or(Supplier)` - возвращает Optional переданного значения, если оно задано,
  *          иначе возвращает Optional, предоставленной Supplier функцией
  */
 public class Test {

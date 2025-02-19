@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Новый метод Optional:
  * <p>
- * orElseThrow() - бросается исключение NoSuchElementException, если Optional не имеет значения
+ * `orElseThrow()` - бросается исключение NoSuchElementException, если Optional не имеет значения
  */
 public class Test {
     public static void main(String[] args) {

@@ -8,7 +8,10 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * Добавлены новые методы в Collectors: toUnmodifiableList(), toUnmodifiableSet(), toUnmodifiableMap().
+ * Добавлены новые методы в Collectors:
+ * - `toUnmodifiableList()`
+ * - `toUnmodifiableSet()`
+ * - `toUnmodifiableMap()`
  * Они позволяют собирать элементы Stream в unmodifiable коллекции.
  */
 public class Test {

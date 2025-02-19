@@ -1,4 +1,4 @@
-package com.github.ilebedenko.release_history.java11._new_string_methods;
+package com.github.ilebedenko.release_history.java11._2_new_string_methods;
 
 /**
  * Новые методы String:
@@ -8,8 +8,8 @@ package com.github.ilebedenko.release_history.java11._new_string_methods;
  * `lines` - возвращает объект Stream<String>, полученный разбиением строки по символу конца строки.
  * Этот метод следует предпочесть методу `split()`, поскольку он обеспечивает лучшую производительность
  * <p>
- * `repeat(int count)` - возвращает строку, значение которой является конкатенация исходной строки,
- *                       повторенное указанное количество раз
+ * `repeat(int)` - возвращает строку, значение которой является конкатенация исходной строки,
+ *                 повторенное указанное количество раз
  * <p>
  * `strip` - возвращает строку, в которой удалены все начальные и конечные пробелы.
  *  В отличие от `trim` учитывает еще и символы пробела в Unicode
