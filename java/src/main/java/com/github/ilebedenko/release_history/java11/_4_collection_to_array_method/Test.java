@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- *  В интерфейс java.util.Collection был добавлен новый default метод:
+ *  В интерфейс `java.util.Collection` был добавлен новый default метод:
+ *  <p>
  *  `toArray(IntFunction)` - возвращает массив указанного типа, собранный из коллекции
  */
 public class Test {

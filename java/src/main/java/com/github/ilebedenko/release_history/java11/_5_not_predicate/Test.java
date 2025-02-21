@@ -6,6 +6,7 @@ import java.util.function.Predicate;
 
 /**
  * Добавлен новый метод для создания отрицания предиката:
+ * <p>
  * `not(Predicate)` - возвращает Predicate, являющийся отрицанием переданного предиката
  */
 public class Test {
