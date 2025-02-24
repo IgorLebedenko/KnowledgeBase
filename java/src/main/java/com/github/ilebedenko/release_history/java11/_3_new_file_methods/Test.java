@@ -1,4 +1,4 @@
-package com.github.ilebedenko.release_history.java11._3_file_methods;
+package com.github.ilebedenko.release_history.java11._3_new_file_methods;
 
 import java.io.IOException;
 import java.nio.file.Files;
