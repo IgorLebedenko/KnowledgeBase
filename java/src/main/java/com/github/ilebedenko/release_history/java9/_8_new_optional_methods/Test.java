@@ -26,14 +26,14 @@ public class Test {
         List<Integer> ids = List.of(1, 2, 4, 5);
 
         // stream   -> Ann Ben Den
-        // =============== BEFORE JAVA 9 ================
+        // =============== OLD ================
         ids.stream()
                 .map(id -> Optional.ofNullable(persons.get(id)))
                 .filter(Optional::isPresent)
                 .map(Optional::get)
                 .forEach(name -> System.out.print(name + " "));
         System.out.println();
-        // =============== AFTER JAVA 9 ================
+        // =============== SINCE JAVA 9 ================
         ids.stream()
                 .map(id -> Optional.ofNullable(persons.get(id)))
                 .flatMap(Optional::stream)

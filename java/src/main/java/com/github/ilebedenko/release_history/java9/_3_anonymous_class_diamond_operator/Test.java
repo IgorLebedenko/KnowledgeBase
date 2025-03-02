@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class Test {
     public static void main(String[] args) {
-        // =============== BEFORE JAVA 9 ================
+        // =============== OLD ================
         Handler<String> stringHandler = new Handler<String>("text") {
             @Override
             void handle() {
@@ -30,7 +30,7 @@ public class Test {
             }
         };
 
-        // =============== AFTER JAVA 9 ================
+        // =============== SINCE JAVA 9 ================
         Handler<String> stringHandler2 = new Handler<>("text") {
             @Override
             void handle() {

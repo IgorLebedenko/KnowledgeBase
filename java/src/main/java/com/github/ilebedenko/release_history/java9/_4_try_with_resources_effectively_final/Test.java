@@ -11,14 +11,14 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws FileNotFoundException {
-        // =============== BEFORE JAVA 9 ================
+        // =============== OLD ================
         try (BufferedReader br1 = new BufferedReader(new FileReader("test1.txt"));
              BufferedReader br2 = new BufferedReader(new FileReader("test2.txt"))) {
             System.out.println(br1.readLine() + br2.readLine());
         } catch (IOException ignored) {
         }
 
-        // =============== AFTER JAVA 9 ================
+        // =============== SINCE JAVA 9 ================
         final BufferedReader br1 = new BufferedReader(new FileReader("test1.txt"));
         final BufferedReader br2 = new BufferedReader(new FileReader("test2.txt"));
 

@@ -17,7 +17,7 @@ import java.util.*;
  */
 public class Test {
     public static void main(String[] args) {
-        // =============== BEFORE JAVA 9 ================
+        // =============== OLD ================
         // LIST
         ArrayList<String> list = new ArrayList<>();
         list.add("1");
@@ -46,7 +46,7 @@ public class Test {
         Map<String, Integer> unmodifiableMap = Collections.unmodifiableMap(map);
 
 
-        // =============== AFTER JAVA 9 ================
+        // =============== SINCE JAVA 9 ================
         // LIST
         unmodifiableList = List.of("1", "2", "3");
 

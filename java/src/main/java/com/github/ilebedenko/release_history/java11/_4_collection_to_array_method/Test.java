@@ -13,10 +13,10 @@ public class Test {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Java", "Kotlin", "Scala");
 
-        // =============== BEFORE JAVA 11 ================
+        // =============== OLD ================
         String[] oldArray = list.toArray(new String[0]);
 
-        // =============== AFTER JAVA 11 ================
+        // =============== SINCE JAVA 11 ================
         String[] newArray = list.toArray(String[]::new);
     }
 }
