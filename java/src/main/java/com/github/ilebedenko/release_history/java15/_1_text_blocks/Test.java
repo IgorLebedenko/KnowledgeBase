@@ -11,7 +11,7 @@ package com.github.ilebedenko.release_history.java15._1_text_blocks;
 public class Test {
 
     public static void main(String[] args) {
-        // =============== OLD ================
+        // ==================== OLD =====================
         String html =
                 "<html>\n" +
                         "\t<body>\n" +

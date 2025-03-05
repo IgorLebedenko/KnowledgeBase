@@ -26,7 +26,7 @@ public class Test {
         List<Integer> ids = List.of(1, 2, 4, 5);
 
         // stream   -> Ann Ben Den
-        // =============== OLD ================
+        // ==================== OLD =====================
         ids.stream()
                 .map(id -> Optional.ofNullable(persons.get(id)))
                 .filter(Optional::isPresent)

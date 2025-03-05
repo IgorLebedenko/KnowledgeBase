@@ -13,7 +13,7 @@ public class Test {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Java", "Kotlin", "Scala");
 
-        // =============== OLD ================
+        // ==================== OLD =====================
         String[] oldArray = list.toArray(new String[0]);
 
         // =============== SINCE JAVA 11 ================

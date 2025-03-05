@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 public class Test {
     public static void main(String[] args) throws FileNotFoundException {
-        // =============== OLD ================
+        // ==================== OLD =====================
         try (BufferedReader br1 = new BufferedReader(new FileReader("test1.txt"));
              BufferedReader br2 = new BufferedReader(new FileReader("test2.txt"))) {
             System.out.println(br1.readLine() + br2.readLine());

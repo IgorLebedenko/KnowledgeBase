@@ -20,7 +20,7 @@ public class Test {
         System.out.println(productType);
     }
 
-    // =============== OLD ================
+    // ==================== OLD =====================
     private static String oldSwitch(String productName) {
         String productType;
         switch (productName) {
